@@ -1,0 +1,328 @@
+$date
+	Mon Feb 20 20:50:38 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decode_tb $end
+$var wire 1 ! cnd $end
+$var wire 64 " valE [63:0] $end
+$var wire 64 # valM [63:0] $end
+$var wire 64 $ valc [63:0] $end
+$var wire 64 % valP [63:0] $end
+$var wire 64 & valB [63:0] $end
+$var wire 64 ' valA [63:0] $end
+$var wire 64 ( reg_f9 [63:0] $end
+$var wire 64 ) reg_f8 [63:0] $end
+$var wire 64 * reg_f7 [63:0] $end
+$var wire 64 + reg_f6 [63:0] $end
+$var wire 64 , reg_f5 [63:0] $end
+$var wire 64 - reg_f4 [63:0] $end
+$var wire 64 . reg_f3 [63:0] $end
+$var wire 64 / reg_f2 [63:0] $end
+$var wire 64 0 reg_f14 [63:0] $end
+$var wire 64 1 reg_f13 [63:0] $end
+$var wire 64 2 reg_f12 [63:0] $end
+$var wire 64 3 reg_f11 [63:0] $end
+$var wire 64 4 reg_f10 [63:0] $end
+$var wire 64 5 reg_f1 [63:0] $end
+$var wire 64 6 reg_f0 [63:0] $end
+$var wire 4 7 rB [3:0] $end
+$var wire 4 8 rA [3:0] $end
+$var wire 1 9 mem_error $end
+$var wire 1 : invalid_instr $end
+$var wire 4 ; ifun [3:0] $end
+$var wire 4 < icode [3:0] $end
+$var wire 1 = halt $end
+$var reg 64 > PC [63:0] $end
+$var reg 1 ? clk $end
+$var reg 80 @ instr [0:79] $end
+$scope module decode_call $end
+$var wire 1 ? clk $end
+$var wire 1 ! cnd $end
+$var wire 64 A valE [63:0] $end
+$var wire 64 B valM [63:0] $end
+$var wire 4 C rB [3:0] $end
+$var wire 4 D rA [3:0] $end
+$var wire 4 E icode [3:0] $end
+$var reg 64 F reg_f0 [63:0] $end
+$var reg 64 G reg_f1 [63:0] $end
+$var reg 64 H reg_f10 [63:0] $end
+$var reg 64 I reg_f11 [63:0] $end
+$var reg 64 J reg_f12 [63:0] $end
+$var reg 64 K reg_f13 [63:0] $end
+$var reg 64 L reg_f14 [63:0] $end
+$var reg 64 M reg_f2 [63:0] $end
+$var reg 64 N reg_f3 [63:0] $end
+$var reg 64 O reg_f4 [63:0] $end
+$var reg 64 P reg_f5 [63:0] $end
+$var reg 64 Q reg_f6 [63:0] $end
+$var reg 64 R reg_f7 [63:0] $end
+$var reg 64 S reg_f8 [63:0] $end
+$var reg 64 T reg_f9 [63:0] $end
+$var reg 64 U valA [63:0] $end
+$var reg 64 V valB [63:0] $end
+$upscope $end
+$scope module fetch_call $end
+$var wire 64 W PC [63:0] $end
+$var wire 1 ? clk $end
+$var wire 80 X instr [0:79] $end
+$var reg 1 = halt $end
+$var reg 4 Y icode [3:0] $end
+$var reg 4 Z ifun [3:0] $end
+$var reg 1 : invalid_instr $end
+$var reg 1 9 mem_error $end
+$var reg 4 [ rA [3:0] $end
+$var reg 4 \ rB [3:0] $end
+$var reg 64 ] valP [63:0] $end
+$var reg 64 ^ valc [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx ^
+b10100 ]
+bx \
+bx [
+b0 Z
+b1 Y
+b10000001000000000000101100000001000111000000000000000000000000000000000010000 X
+b10011 W
+b0 V
+b0 U
+bx T
+bx S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+b1 E
+bx D
+bx C
+bz B
+bz A
+b10000001000000000000101100000001000111000000000000000000000000000000000010000 @
+0?
+b10011 >
+0=
+b1 <
+b0 ;
+0:
+09
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+b0 '
+b0 &
+b10100 %
+bx $
+bz #
+bz "
+1!
+$end
+#10
+b1100 '
+b1100 U
+b10110 %
+b10110 ]
+b0 8
+b0 D
+b0 [
+b1 7
+b1 C
+b1 \
+b10 <
+b10 E
+b10 Y
+b100000000000010110000000100011100000000000000000000000000000000001000000000000 @
+b100000000000010110000000100011100000000000000000000000000000000001000000000000 X
+b10000111000011 0
+b10000111000011 L
+b11000011111 1
+b11000011111 K
+b0 2
+b0 J
+b10011110000000 3
+b10011110000000 I
+b11000000111001 4
+b11000000111001 H
+b1111111111111111111111111111111111111111111111111100111111000111 (
+b1111111111111111111111111111111111111111111111111100111111000111 T
+b11110001101100110000 )
+b11110001101100110000 S
+b10011100010000 *
+b10011100010000 R
+b1111111111111111111111111111111111111111111111111111111101110001 +
+b1111111111111111111111111111111111111111111111111111111101110001 Q
+b110010 ,
+b110010 P
+b11111110 -
+b11111110 O
+b11 .
+b11 N
+b1100101 /
+b1100101 M
+b1010 5
+b1010 G
+b1100 6
+b1100 F
+b10100 >
+b10100 W
+1?
+#20
+0?
+#30
+b11 &
+b11 V
+b11000 %
+b11000 ]
+b10 8
+b10 D
+b10 [
+b11 7
+b11 C
+b11 \
+b110 <
+b110 E
+b110 Y
+b1100000001000111000000000000000000000000000000000010000000000000000000000000000 @
+b1100000001000111000000000000000000000000000000000010000000000000000000000000000 X
+b10110 >
+b10110 W
+bz 5
+bz G
+b1100101 '
+b1100101 U
+1?
+#40
+0?
+#50
+b100001 %
+b100001 ]
+b1000000000000000000000000000000000001 $
+b1000000000000000000000000000000000001 ^
+b1000 <
+b1000 E
+b1000 Y
+b10000000000000000000000000000000000100000000000000000000000000000000000101100000 @
+b10000000000000000000000000000000000100000000000000000000000000000000000101100000 X
+bz .
+bz N
+b11000 >
+b11000 W
+b11111110 &
+b11111110 V
+b0 '
+b0 U
+1?
+#60
+0?
+#70
+b1111111111111111111111111111111111111111111111111100111111000111 '
+b1111111111111111111111111111111111111111111111111100111111000111 U
+b100011 %
+b100011 ]
+b1001 8
+b1001 D
+b1001 [
+b1010 7
+b1010 C
+b1010 \
+b110 <
+b110 E
+b110 Y
+b1100000100110100110000001010110100000000000000000000000000000000001000000000000 @
+b1100000100110100110000001010110100000000000000000000000000000000001000000000000 X
+b100001 >
+b100001 W
+bz -
+bz O
+b11000000111001 &
+b11000000111001 V
+1?
+#80
+0?
+#90
+b100101 %
+b100101 ]
+b101 8
+b101 D
+b101 [
+b110 7
+b110 C
+b110 \
+b1100000010101101000000000000000000000000000000000010000000000000000000000010001 @
+b1100000010101101000000000000000000000000000000000010000000000000000000000010001 X
+bz 4
+bz H
+b100011 >
+b100011 W
+b1111111111111111111111111111111111111111111111111111111101110001 &
+b1111111111111111111111111111111111111111111111111111111101110001 V
+b110010 '
+b110010 U
+1?
+#100
+0?
+#110
+b101110 %
+b101110 ]
+b1000000000000000000000001000100000001 $
+b1000000000000000000000001000100000001 ^
+b1000 <
+b1000 E
+b1000 Y
+b10000000000000000000000000000000000100000000000000000000000100010000000100000000 @
+b10000000000000000000000000000000000100000000000000000000000100010000000100000000 X
+b100101 >
+b100101 W
+bz +
+bz Q
+bz &
+bz V
+b0 '
+b0 U
+1?
+#120
+0?
+#130
+b0 &
+b0 V
+b101111 %
+b101111 ]
+1=
+b0 <
+b0 E
+b0 Y
+b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx @
+b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx X
+b101110 >
+b101110 W
+1?

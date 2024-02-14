@@ -1,0 +1,244 @@
+VCD info: dumpfile processor.vcd opened for output.
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =      1 clk=1 F_predPC=                   1 f_predPC=                   2 
+ d_srcA =  x d_srcB =  x
+e_cnd = x e_valE =                    0 E_valA =                    x E_valB =                    x E_dstM =  x E_dstE =  x e_dstE =  x OF = 0 SF = 0 ZF = 0
+D_icode=xxxx D_ifun=xxxx D_rA=xxxx D_rB=xxxx,valC=                   x
+ W_valM =                    x
+rsp =                    x and m_valM =                    x M_valA =                    x M_valE =                    x
+d_valA =                    x d_valB =                    x
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =      2 clk=1 F_predPC=                   2 f_predPC=                   4 
+ d_srcA = 15 d_srcB = 15
+e_cnd = x e_valE =                    0 E_valA =                    x E_valB =                    x E_dstM =  x E_dstE =  x e_dstE =  x OF = 0 SF = 0 ZF = 0
+D_icode=0001 D_ifun=0000 D_rA=xxxx D_rB=xxxx,valC=                   x
+ W_valM =                    x
+rsp =                  254 and m_valM =                    x M_valA =                    x M_valE =                    0
+d_valA =                    x d_valB =                    x
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =      3 clk=1 F_predPC=                   4 f_predPC=                  14 
+ d_srcA =  1 d_srcB = 15
+e_cnd = x e_valE =                    0 E_valA =                    x E_valB =                    x E_dstM = 15 E_dstE = 15 e_dstE = 15 OF = 0 SF = 0 ZF = 0
+D_icode=0010 D_ifun=0000 D_rA=0001 D_rB=0010,valC=                   x
+ W_valM =                    x
+rsp =                  254 and m_valM =                    x M_valA =                    x M_valE =                    0
+d_valA =                   10 d_valB =                    0
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =      4 clk=1 F_predPC=                  14 f_predPC=                  24 
+ d_srcA = 15 d_srcB = 15
+e_cnd = 1 e_valE =                   10 E_valA =                   10 E_valB =                    0 E_dstM = 15 E_dstE =  2 e_dstE =  2 OF = 0 SF = 0 ZF = 0
+D_icode=0011 D_ifun=0000 D_rA=1111 D_rB=0010,valC=                   2
+ W_valM =                    x
+rsp =                  254 and m_valM =                    x M_valA =                    x M_valE =                    0
+d_valA =                   10 d_valB =                    0
+___________________________________________________________________________________________
+
+hi1 F_stalled
+hi3
+F_stall = 1 D_stall = 1 D_bubble = 0 setcc = 1 cycle =      5 clk=1 F_predPC=                  24 f_predPC=                  34 
+ d_srcA =  2 d_srcB =  4
+e_cnd = 1 e_valE =                    2 E_valA =                   10 E_valB =                    0 E_dstM = 15 E_dstE =  2 e_dstE =  2 OF = 0 SF = 0 ZF = 0
+D_icode=0100 D_ifun=0000 D_rA=0010 D_rB=0100,valC=                   1
+ W_valM =                    x
+rsp =                  254 and m_valM =                    x M_valA =                   10 M_valE =                   10
+d_valA =                    2 d_valB =                  254
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =      6 clk=1 F_predPC=                  24 f_predPC=                  34 
+ d_srcA =  2 d_srcB =  4
+e_cnd = 1 e_valE =                  255 E_valA =                    2 E_valB =                  254 E_dstM = 15 E_dstE = 15 e_dstE = 15 OF = 0 SF = 0 ZF = 0
+D_icode=0100 D_ifun=0000 D_rA=0010 D_rB=0100,valC=                   1
+ W_valM =                    x
+rsp =                  254 and m_valM =                    x M_valA =                   10 M_valE =                    2
+d_valA =                    2 d_valB =                  254
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =      7 clk=1 F_predPC=                  34 f_predPC=                  44 
+ d_srcA =  5 d_srcB =  3
+e_cnd = 1 e_valE =                  255 E_valA =                    2 E_valB =                  254 E_dstM = 15 E_dstE = 15 e_dstE = 15 OF = 0 SF = 0 ZF = 0
+D_icode=0100 D_ifun=0000 D_rA=0101 D_rB=0011,valC=                   0
+ W_valM =                    x
+rsp =                  254 and m_valM =                    x M_valA =                    2 M_valE =                  255
+d_valA =                   50 d_valB =                    3
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =      8 clk=1 F_predPC=                  44 f_predPC=                  46 
+ d_srcA = 15 d_srcB =  3
+e_cnd = 1 e_valE =                    3 E_valA =                   50 E_valB =                    3 E_dstM = 15 E_dstE = 15 e_dstE = 15 OF = 0 SF = 0 ZF = 0
+D_icode=0101 D_ifun=0000 D_rA=0101 D_rB=0011,valC=                   0
+ W_valM =                    x
+rsp =                  254 and m_valM =                    x M_valA =                    2 M_valE =                  255
+d_valA =                   50 d_valB =                    3
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =      9 clk=1 F_predPC=                  46 f_predPC=                  56 
+ d_srcA =  9 d_srcB = 10
+e_cnd = 1 e_valE =                    3 E_valA =                   50 E_valB =                    3 E_dstM =  5 E_dstE = 15 e_dstE = 15 OF = 0 SF = 0 ZF = 0
+D_icode=0110 D_ifun=0000 D_rA=1001 D_rB=1010,valC=                   0
+ W_valM =                    x
+rsp =                  254 and m_valM =                    x M_valA =                   50 M_valE =                    3
+d_valA =               -12345 d_valB =                12345
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =     10 clk=1 F_predPC=                  56 f_predPC=                  58 
+ d_srcA = 15 d_srcB = 15
+e_cnd = 1 e_valE =                    0 E_valA =               -12345 E_valB =                12345 E_dstM = 15 E_dstE = 10 e_dstE = 10 OF = 0 SF = 0 ZF = 1
+D_icode=0111 D_ifun=0011 D_rA=1001 D_rB=1010,valC=                  56
+ W_valM =                    x
+rsp =                  254 and m_valM =                   50 M_valA =                   50 M_valE =                    3
+d_valA =                   55 d_valB =                12345
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =     11 clk=1 F_predPC=                  58 f_predPC=                  60 
+ d_srcA =  9 d_srcB =  4
+e_cnd = 1 e_valE =                    0 E_valA =                   55 E_valB =                12345 E_dstM = 15 E_dstE = 15 e_dstE = 15 OF = 0 SF = 0 ZF = 1
+D_icode=1010 D_ifun=0000 D_rA=1001 D_rB=1111,valC=                  56
+ W_valM =                   50
+rsp =                  254 and m_valM =                   50 M_valA =               -12345 M_valE =                    0
+d_valA =               -12345 d_valB =                  254
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =     12 clk=1 F_predPC=                  60 f_predPC=                  80 
+ d_srcA =  4 d_srcB =  4
+e_cnd = 1 e_valE =                  253 E_valA =               -12345 E_valB =                  254 E_dstM = 15 E_dstE =  4 e_dstE =  4 OF = 0 SF = 0 ZF = 1
+D_icode=1011 D_ifun=0000 D_rA=1001 D_rB=1111,valC=                  56
+ W_valM =                   50
+rsp =                  254 and m_valM =                   50 M_valA =                   55 M_valE =                    0
+d_valA =                  253 d_valB =                  253
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =     13 clk=1 F_predPC=                  80 f_predPC=                  90 
+ d_srcA = 15 d_srcB =  4
+e_cnd = 1 e_valE =                  254 E_valA =                  253 E_valB =                  253 E_dstM =  9 E_dstE =  4 e_dstE =  4 OF = 0 SF = 0 ZF = 1
+D_icode=1000 D_ifun=0000 D_rA=1001 D_rB=1111,valC=                  80
+ W_valM =                   50
+rsp =                  254 and m_valM =                   50 M_valA =               -12345 M_valE =                  253
+d_valA =                   69 d_valB =                  254
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =     14 clk=1 F_predPC=                  90 f_predPC=                  92 
+ d_srcA = 15 d_srcB = 15
+e_cnd = 1 e_valE =                  253 E_valA =                   69 E_valB =                  254 E_dstM = 15 E_dstE =  4 e_dstE =  4 OF = 0 SF = 0 ZF = 1
+D_icode=0011 D_ifun=0000 D_rA=1111 D_rB=0010,valC=                   2
+ W_valM =                   50
+rsp =                  254 and m_valM =               -12345 M_valA =                  253 M_valE =                  254
+d_valA =                  254 d_valB =                    0
+___________________________________________________________________________________________
+
+hi1 F_stalled
+hi3
+F_stall = 1 D_stall = 1 D_bubble = 0 setcc = 1 cycle =     15 clk=1 F_predPC=                  92 f_predPC=                  93 
+ d_srcA =  9 d_srcB = 10
+e_cnd = 1 e_valE =                    2 E_valA =                  254 E_valB =                    0 E_dstM = 15 E_dstE =  2 e_dstE =  2 OF = 0 SF = 0 ZF = 1
+D_icode=0110 D_ifun=0000 D_rA=1001 D_rB=1010,valC=                   2
+ W_valM =               -12345
+rsp =                  253 and m_valM =               -12345 M_valA =                   69 M_valE =                  253
+d_valA =               -12345 d_valB =                    0
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =     16 clk=1 F_predPC=                  92 f_predPC=                  93 
+ d_srcA =  9 d_srcB = 10
+e_cnd = 1 e_valE =               -12345 E_valA =               -12345 E_valB =                    0 E_dstM = 15 E_dstE = 10 e_dstE = 10 OF = 0 SF = 1 ZF = 0
+D_icode=0110 D_ifun=0000 D_rA=1001 D_rB=1010,valC=                   2
+ W_valM =               -12345
+rsp =                  254 and m_valM =               -12345 M_valA =                  254 M_valE =                    2
+d_valA =               -12345 d_valB =               -12345
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =     17 clk=1 F_predPC=                  93 f_predPC=                  93 
+ d_srcA = 15 d_srcB = 15
+e_cnd = 1 e_valE =               -24690 E_valA =               -12345 E_valB =               -12345 E_dstM = 15 E_dstE = 10 e_dstE = 10 OF = 0 SF = 1 ZF = 0
+D_icode=0001 D_ifun=0000 D_rA=1001 D_rB=1010,valC=                   2
+ W_valM =               -12345
+rsp =                  253 and m_valM =               -12345 M_valA =               -12345 M_valE =               -12345
+d_valA =               -12345 d_valB =                    0
+___________________________________________________________________________________________
+
+hi2
+hi2
+F_stall = 1 D_stall = 0 D_bubble = 1 setcc = 1 cycle =     18 clk=1 F_predPC=                  93 f_predPC=                  93 
+ d_srcA =  4 d_srcB =  4
+e_cnd = 1 e_valE =                    0 E_valA =               -12345 E_valB =                    0 E_dstM = 15 E_dstE = 15 e_dstE = 15 OF = 0 SF = 0 ZF = 0
+D_icode=1001 D_ifun=0000 D_rA=1001 D_rB=1010,valC=                   2
+ W_valM =               -12345
+rsp =                  253 and m_valM =               -12345 M_valA =               -12345 M_valE =               -24690
+d_valA =                  253 d_valB =                  253
+___________________________________________________________________________________________
+
+hi2
+F_stall = 1 D_stall = 0 D_bubble = 1 setcc = 1 cycle =     19 clk=1 F_predPC=                  93 f_predPC=                  93 
+ d_srcA = 15 d_srcB = 15
+e_cnd = 1 e_valE =                  254 E_valA =                  253 E_valB =                  253 E_dstM = 15 E_dstE =  4 e_dstE =  4 OF = 0 SF = 0 ZF = 0
+D_icode=0001 D_ifun=0000 D_rA=0000 D_rB=0000,valC=                   0
+ W_valM =               -12345
+rsp =                  253 and m_valM =               -12345 M_valA =               -12345 M_valE =                    0
+d_valA =                  253 d_valB =                  253
+___________________________________________________________________________________________
+
+hi2
+F_stall = 1 D_stall = 0 D_bubble = 1 setcc = 1 cycle =     20 clk=1 F_predPC=                  93 f_predPC=                  93 
+ d_srcA = 15 d_srcB = 15
+e_cnd = 1 e_valE =                    0 E_valA =                  253 E_valB =                  253 E_dstM = 15 E_dstE = 15 e_dstE = 15 OF = 0 SF = 0 ZF = 0
+D_icode=0001 D_ifun=0000 D_rA=0000 D_rB=0000,valC=                   0
+ W_valM =               -12345
+rsp =                  253 and m_valM =                   69 M_valA =                  253 M_valE =                  254
+d_valA =                  253 d_valB =                  253
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =     21 clk=1 F_predPC=                  93 f_predPC=                  71 
+ d_srcA = 15 d_srcB = 15
+e_cnd = 1 e_valE =                    0 E_valA =                  253 E_valB =                  253 E_dstM = 15 E_dstE = 15 e_dstE = 15 OF = 0 SF = 0 ZF = 0
+D_icode=0001 D_ifun=0000 D_rA=0000 D_rB=0000,valC=                   0
+ W_valM =                   69
+rsp =                  253 and m_valM =                   69 M_valA =                  253 M_valE =                    0
+d_valA =                  253 d_valB =                  253
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =     22 clk=1 F_predPC=                  71 f_predPC=                  46 
+ d_srcA =  5 d_srcB =  6
+e_cnd = 1 e_valE =                    0 E_valA =                  253 E_valB =                  253 E_dstM = 15 E_dstE = 15 e_dstE = 15 OF = 0 SF = 0 ZF = 0
+D_icode=0110 D_ifun=0000 D_rA=0101 D_rB=0110,valC=                   2
+ W_valM =                   69
+rsp =                  254 and m_valM =                   69 M_valA =                  253 M_valE =                    0
+d_valA =                   50 d_valB =                 -143
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =     23 clk=1 F_predPC=                  46 f_predPC=                  56 
+ d_srcA = 15 d_srcB = 15
+e_cnd = 1 e_valE =                  -93 E_valA =                   50 E_valB =                 -143 E_dstM = 15 E_dstE =  6 e_dstE =  6 OF = 0 SF = 1 ZF = 0
+D_icode=0111 D_ifun=0000 D_rA=0101 D_rB=0110,valC=                  46
+ W_valM =                   69
+rsp =                  254 and m_valM =                   69 M_valA =                  253 M_valE =                    0
+d_valA =                   80 d_valB =                 -143
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =     24 clk=1 F_predPC=                  56 f_predPC=                  58 
+ d_srcA = 15 d_srcB = 15
+e_cnd = 1 e_valE =                    0 E_valA =                   80 E_valB =                 -143 E_dstM = 15 E_dstE = 15 e_dstE = 15 OF = 0 SF = 1 ZF = 0
+D_icode=0111 D_ifun=0011 D_rA=0101 D_rB=0110,valC=                  56
+ W_valM =                   69
+rsp =                  254 and m_valM =                   69 M_valA =                   50 M_valE =                  -93
+d_valA =                   55 d_valB =                 -143
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =     25 clk=1 F_predPC=                  58 f_predPC=                  60 
+ d_srcA =  9 d_srcB =  4
+e_cnd = 0 e_valE =                    0 E_valA =                   55 E_valB =                 -143 E_dstM = 15 E_dstE = 15 e_dstE = 15 OF = 0 SF = 1 ZF = 0
+D_icode=1010 D_ifun=0000 D_rA=1001 D_rB=1111,valC=                  56
+ W_valM =                   69
+rsp =                  254 and m_valM =                   69 M_valA =                   80 M_valE =                    0
+d_valA =               -12345 d_valB =                  254
+___________________________________________________________________________________________
+
+F_stall = 0 D_stall = 0 D_bubble = 0 setcc = 1 cycle =     26 clk=1 F_predPC=                  60 f_predPC=                  55 
+ d_srcA =  4 d_srcB =  4
+e_cnd = 0 e_valE =                  253 E_valA =               -12345 E_valB =                  254 E_dstM = 15 E_dstE =  4 e_dstE =  4 OF = 0 SF = 1 ZF = 0
+D_icode=1011 D_ifun=0000 D_rA=1001 D_rB=1111,valC=                  56
+ W_valM =                   69
+rsp =                  254 and m_valM =                   69 M_valA =                   55 M_valE =                    0
+d_valA =                  253 d_valB =                  253
+___________________________________________________________________________________________
+
+halt encountered
